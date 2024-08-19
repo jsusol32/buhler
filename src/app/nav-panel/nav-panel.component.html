@@ -1,0 +1,12 @@
+<div class="panel">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Logo_B%C3%BChler_AG.svg/1200px-Logo_B%C3%BChler_AG.svg.png">
+    <div>
+        <img src="../../assets/schedule.svg">
+        <span>{{currentDt}}</span>
+        <img src="../../assets/account_circle.svg">
+        <span>Operator</span>
+    </div>
+</div>
+<nav>
+    <app-machine-card *ngFor="let card of cardList" [type]="card"></app-machine-card>
+</nav>

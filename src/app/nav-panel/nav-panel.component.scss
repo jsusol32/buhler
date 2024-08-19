@@ -1,0 +1,30 @@
+.panel {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 8px solid var(--buhler-green);
+    background-color: var(--buhler-bg);
+    padding: 20px;
+    img {
+        height: 40px;
+    }
+    div {
+        display: flex;
+        align-items: center;
+        font-weight: bold;
+        img {
+            padding: 5px;
+            height: 25px;
+        }
+        span {
+            font-size: large;
+        }
+        span:nth-of-type(1) {
+            margin-right: 50px;
+        }
+    }
+}
+
+nav {
+    display: flex;
+    background-color: var(--buhler-bg);
+}

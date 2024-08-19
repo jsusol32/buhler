@@ -1,0 +1,20 @@
+.panel {
+    position: relative;
+    margin: 10%;
+    .card-grid {
+        display: grid;
+        grid-template-columns: 130px 130px 130px 130px;
+        z-index: 10;
+        position: relative;
+        height: 130px;
+        justify-content: space-between;
+    }
+    .flow-line {
+        top: 50%;
+        z-index: 1;
+        position: absolute;
+        width: 95%;
+        height: 5px;
+        background-color: green;
+    }
+}

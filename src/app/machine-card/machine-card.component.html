@@ -1,0 +1,7 @@
+<div class="card" [ngClass]="status">
+    <img class="status-icon" [src]="'../../assets/' + status + '.svg'">
+    <div class="card-body">
+        <img *ngIf="showImg" [src]="'../../assets/' + type + '.svg'">
+        <span>{{title}}</span>
+    </div>
+</div>
